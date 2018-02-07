@@ -2,3 +2,4 @@
 	目标：www.dadigua.win
 	1.whois信息查询
 		网址：http://who.is whois.chinaz.com whois.aizhan.com
+		关注信息：注册商、联系人、DNS解析服务器
