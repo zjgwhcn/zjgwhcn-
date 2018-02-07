@@ -1,0 +1,4 @@
+一：信息收集：
+	目标：www.dadigua.win
+	1.whois信息查询
+		网址：http://who.is whois.chinaz.com whois.aizhan.com
