@@ -3,3 +3,8 @@
 	1.whois信息查询
 		网址：http://who.is whois.chinaz.com whois.aizhan.com
 		关注信息：注册商、联系人、DNS解析服务器
+		(如果在站长之家上有隐藏信息，可在who.is上再次查看)
+	2.利用响应头简单分析网站
+		Server:nginx/1.1.19  网站中间件
+		X-Powered-By:Express  网站脚本语言(得到目标网站是脚本语言)
+
