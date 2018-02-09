@@ -7,8 +7,4 @@
 	2.利用响应头简单分析网站
 		Server:nginx/1.1.19  网站中间件
 		X-Powered-By:Express  网站脚本语言(得到目标网站是脚本语言)
-		Server:Apache/2.2.25 (win32) PHP/5.3.5(网站中间件为apache  程序语言为PHP)
-		firefox插件：wapplayzer
-	3.爬行网站目录结构
-		WebRobot  网络蜘蛛  右键添加URL爬行即可(不推荐）
 
