@@ -12,3 +12,18 @@
 	3.爬行网站目录结构
 		WebRobot  网络蜘蛛  右键添加URL爬行即可(不推荐）
 
+
+	4.对网站目录进行爆破扫描
+		dirbrute  工具内置爬行效果
+	5.对爬行结果中得到的目录结构要再次爆破扫描
+	6.二级域名
+		www.dadigua.win
+		xss.dadingua.win
+		forum.dadigua.wein
+		1.第一招:google语法
+			site  限制在某个目标查询    site:dadigua.win  比如site:.cn
+			inurl  在URL链接中查询  比如:我们要查URL中包含 admin  的链接  inurl:login.php    inurl:admin_login.pgp
+			intitile  在页面标题中查找到  比如:我们要查标题中包含"我是一个帅哥"  intitle:管理员登陆  intitle:后台登陆
+			intext  在网站正文内容中找文本
+			allinurl allintitle  allintext()
+
