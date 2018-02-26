@@ -11,8 +11,20 @@
 		firefox插件：wapplayzer
 	3.爬行网站目录结构
 		WebRobot  网络蜘蛛  右键添加URL爬行即可(不推荐）
-
-
+		推荐使用扫描器AWVS的siteCrawler模块（首推）
+		但是在使用之前建议先修改工具的默认useragent
+		    Configuration---》scan Settings  --》HTTP Options -->useragent String
+		    Baiduspide+（+https://www.baidu.com/search/spider.htm)
+		为什么要修改工具的UA
+			比如,你的目标网站有安全狗等防护软件,
+			Mozilla/5.0(Linux;U;Android4.4.4;  Nexus 5 Buile/KTU84P) AppleWebkit/534.30 (KHTML,  like Gecko)  Version/4.0  Mobil Safari/534.30
+		Firefox代理插件:Proxy  Switcher
+		Burpsuite spider模块爬行:
+			1.proxy代理:浏览器设置代理host:127.0.0..1 port:8080
+				proxy-->options127.0.0.1:8080(如果为空的话,点击add按钮,设置一下端口就可以了)
+				若running框中的选项无法选中,表示该端口已被其他程序占用
+			2.Proxy代理模块抓到包之后,右键-->send to spider
+			3.爬行结果是显示在target模块中
 	4.对网站目录进行爆破扫描
 		dirbrute  工具内置爬行效果
 	5.对爬行结果中得到的目录结构要再次爆破扫描
