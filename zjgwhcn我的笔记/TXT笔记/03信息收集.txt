@@ -1,41 +1,70 @@
-Ò»£ºĞÅÏ¢ÊÕ¼¯£º
-	Ä¿±ê£ºwww.dadigua.win
-	1.whoisĞÅÏ¢²éÑ¯
-		ÍøÖ·£ºhttp://who.is whois.chinaz.com whois.aizhan.com
-		¹Ø×¢ĞÅÏ¢£º×¢²áÉÌ¡¢ÁªÏµÈË¡¢DNS½âÎö·şÎñÆ÷
-		(Èç¹ûÔÚÕ¾³¤Ö®¼ÒÉÏÓĞÒş²ØĞÅÏ¢£¬¿ÉÔÚwho.isÉÏÔÙ´Î²é¿´)
-	2.ÀûÓÃÏìÓ¦Í·¼òµ¥·ÖÎöÍøÕ¾
-		Server:nginx/1.1.19  ÍøÕ¾ÖĞ¼ä¼ş
-		X-Powered-By:Express  ÍøÕ¾½Å±¾ÓïÑÔ(µÃµ½Ä¿±êÍøÕ¾ÊÇ½Å±¾ÓïÑÔ)
-		Server:Apache/2.2.25 (win32) PHP/5.3.5(ÍøÕ¾ÖĞ¼ä¼şÎªapache  ³ÌĞòÓïÑÔÎªPHP)
-		firefox²å¼ş£ºwapplayzer
-	3.ÅÀĞĞÍøÕ¾Ä¿Â¼½á¹¹
-		WebRobot  ÍøÂçÖ©Öë  ÓÒ¼üÌí¼ÓURLÅÀĞĞ¼´¿É(²»ÍÆ¼ö£©
-		ÍÆ¼öÊ¹ÓÃÉ¨ÃèÆ÷AWVSµÄsiteCrawlerÄ£¿é£¨Ê×ÍÆ£©
-		µ«ÊÇÔÚÊ¹ÓÃÖ®Ç°½¨ÒéÏÈĞŞ¸Ä¹¤¾ßµÄÄ¬ÈÏuseragent
-		    Configuration---¡·scan Settings  --¡·HTTP Options -->useragent String
-		    Baiduspide+£¨+https://www.baidu.com/search/spider.htm)
-		ÎªÊ²Ã´ÒªĞŞ¸Ä¹¤¾ßµÄUA
-			±ÈÈç,ÄãµÄÄ¿±êÍøÕ¾ÓĞ°²È«¹·µÈ·À»¤Èí¼ş,
+ä¸€ï¼šä¿¡æ¯æ”¶é›†ï¼š
+	ç›®æ ‡ï¼šwww.dadigua.win
+	1.whoisä¿¡æ¯æŸ¥è¯¢
+		ç½‘å€ï¼šhttp://who.is whois.chinaz.com whois.aizhan.com
+		å…³æ³¨ä¿¡æ¯ï¼šæ³¨å†Œå•†ã€è”ç³»äººã€DNSè§£ææœåŠ¡å™¨
+		(å¦‚æœåœ¨ç«™é•¿ä¹‹å®¶ä¸Šæœ‰éšè—ä¿¡æ¯ï¼Œå¯åœ¨who.isä¸Šå†æ¬¡æŸ¥çœ‹)
+	2.åˆ©ç”¨å“åº”å¤´ç®€å•åˆ†æç½‘ç«™
+		Server:nginx/1.1.19  ç½‘ç«™ä¸­é—´ä»¶
+		X-Powered-By:Express  ç½‘ç«™è„šæœ¬è¯­è¨€(å¾—åˆ°ç›®æ ‡ç½‘ç«™æ˜¯è„šæœ¬è¯­è¨€)
+		Server:Apache/2.2.25 (win32) PHP/5.3.5(ç½‘ç«™ä¸­é—´ä»¶ä¸ºapache  ç¨‹åºè¯­è¨€ä¸ºPHP)
+		firefoxæ’ä»¶ï¼šwapplayzer
+	3.çˆ¬è¡Œç½‘ç«™ç›®å½•ç»“æ„
+		WebRobot  ç½‘ç»œèœ˜è››  å³é”®æ·»åŠ URLçˆ¬è¡Œå³å¯(ä¸æ¨èï¼‰
+		æ¨èä½¿ç”¨æ‰«æå™¨AWVSçš„siteCrawleræ¨¡å—ï¼ˆé¦–æ¨ï¼‰
+		ä½†æ˜¯åœ¨ä½¿ç”¨ä¹‹å‰å»ºè®®å…ˆä¿®æ”¹å·¥å…·çš„é»˜è®¤useragent
+		    Configuration---ã€‹scan Settings  --ã€‹HTTP Options -->useragent String
+		    Baiduspide+ï¼ˆ+https://www.baidu.com/search/spider.htm)
+		ä¸ºä»€ä¹ˆè¦ä¿®æ”¹å·¥å…·çš„UA
+			æ¯”å¦‚,ä½ çš„ç›®æ ‡ç½‘ç«™æœ‰å®‰å…¨ç‹—ç­‰é˜²æŠ¤è½¯ä»¶,
 			Mozilla/5.0(Linux;U;Android4.4.4;  Nexus 5 Buile/KTU84P) AppleWebkit/534.30 (KHTML,  like Gecko)  Version/4.0  Mobil Safari/534.30
-		Firefox´úÀí²å¼ş:Proxy  Switcher
-		Burpsuite spiderÄ£¿éÅÀĞĞ:
-			1.proxy´úÀí:ä¯ÀÀÆ÷ÉèÖÃ´úÀíhost:127.0.0..1 port:8080
-				proxy-->options127.0.0.1:8080(Èç¹ûÎª¿ÕµÄ»°,µã»÷add°´Å¥,ÉèÖÃÒ»ÏÂ¶Ë¿Ú¾Í¿ÉÒÔÁË)
-				Èôrunning¿òÖĞµÄÑ¡ÏîÎŞ·¨Ñ¡ÖĞ,±íÊ¾¸Ã¶Ë¿ÚÒÑ±»ÆäËû³ÌĞòÕ¼ÓÃ
-			2.Proxy´úÀíÄ£¿é×¥µ½°üÖ®ºó,ÓÒ¼ü-->send to spider
-			3.ÅÀĞĞ½á¹ûÊÇÏÔÊ¾ÔÚtargetÄ£¿éÖĞ
-	4.¶ÔÍøÕ¾Ä¿Â¼½øĞĞ±¬ÆÆÉ¨Ãè
-		dirbrute  ¹¤¾ßÄÚÖÃÅÀĞĞĞ§¹û
-	5.¶ÔÅÀĞĞ½á¹ûÖĞµÃµ½µÄÄ¿Â¼½á¹¹ÒªÔÙ´Î±¬ÆÆÉ¨Ãè
-	6.¶ş¼¶ÓòÃû
+		Firefoxä»£ç†æ’ä»¶:Proxy  Switcher
+		Burpsuite spideræ¨¡å—çˆ¬è¡Œ:
+			1.proxyä»£ç†:æµè§ˆå™¨è®¾ç½®ä»£ç†host:127.0.0..1 port:8080
+				proxy-->options127.0.0.1:8080(å¦‚æœä¸ºç©ºçš„è¯,ç‚¹å‡»addæŒ‰é’®,è®¾ç½®ä¸€ä¸‹ç«¯å£å°±å¯ä»¥äº†)
+				è‹¥runningæ¡†ä¸­çš„é€‰é¡¹æ— æ³•é€‰ä¸­,è¡¨ç¤ºè¯¥ç«¯å£å·²è¢«å…¶ä»–ç¨‹åºå ç”¨
+			2.Proxyä»£ç†æ¨¡å—æŠ“åˆ°åŒ…ä¹‹å,å³é”®-->send to spider
+			3.çˆ¬è¡Œç»“æœæ˜¯æ˜¾ç¤ºåœ¨targetæ¨¡å—ä¸­
+	4.å¯¹ç½‘ç«™ç›®å½•è¿›è¡Œçˆ†ç ´æ‰«æ
+		dirbrute  å·¥å…·å†…ç½®çˆ¬è¡Œæ•ˆæœ
+	5.å¯¹çˆ¬è¡Œç»“æœä¸­å¾—åˆ°çš„ç›®å½•ç»“æ„è¦å†æ¬¡çˆ†ç ´æ‰«æ
+	6.äºŒçº§åŸŸå
 		www.dadigua.win
 		xss.dadingua.win
 		forum.dadigua.wein
-		1.µÚÒ»ÕĞ:googleÓï·¨
-			site  ÏŞÖÆÔÚÄ³¸öÄ¿±ê²éÑ¯    site:dadigua.win  ±ÈÈçsite:.cn
-			inurl  ÔÚURLÁ´½ÓÖĞ²éÑ¯  ±ÈÈç:ÎÒÃÇÒª²éURLÖĞ°üº¬ admin  µÄÁ´½Ó  inurl:login.php    inurl:admin_login.pgp
-			intitile  ÔÚÒ³Ãæ±êÌâÖĞ²éÕÒµ½  ±ÈÈç:ÎÒÃÇÒª²é±êÌâÖĞ°üº¬"ÎÒÊÇÒ»¸öË§¸ç"  intitle:¹ÜÀíÔ±µÇÂ½  intitle:ºóÌ¨µÇÂ½
-			intext  ÔÚÍøÕ¾ÕıÎÄÄÚÈİÖĞÕÒÎÄ±¾
-			allinurl allintitle  allintext()
+		1.ç¬¬ä¸€æ‹›:googleè¯­æ³•
+			site  é™åˆ¶åœ¨æŸä¸ªç›®æ ‡æŸ¥è¯¢    site:dadigua.win  æ¯”å¦‚site:.cn
+			inurl  åœ¨URLé“¾æ¥ä¸­æŸ¥è¯¢  æ¯”å¦‚:æˆ‘ä»¬è¦æŸ¥URLä¸­åŒ…å« admin  çš„é“¾æ¥  inurl:login.php    inurl:admin_login.pgp
+			intitile  åœ¨é¡µé¢æ ‡é¢˜ä¸­æŸ¥æ‰¾åˆ°  æ¯”å¦‚:æˆ‘ä»¬è¦æŸ¥æ ‡é¢˜ä¸­åŒ…å«"æˆ‘æ˜¯ä¸€ä¸ªå¸…å“¥"  intitle:ç®¡ç†å‘˜ç™»é™†  intitle:åå°ç™»é™†
+			intext  åœ¨ç½‘ç«™æ­£æ–‡å†…å®¹ä¸­æ‰¾æ–‡æœ¬
+			allinurl allintitle  allintext(ä¸æ¨èä½¿ç”¨allæ‰“å¤´äººgoogleå…³é”®å­—)
+			site:fenqile.com -www -hui -zhaopin -help -dreamclub -item -open -channel -passport -mall -static -sale -cash -chong -b -m -res -chat
+		2.ç¬¬äºŒæ‹›:ä½¿ç”¨å·¥å…·çˆ†ç ´å¾—åˆ°äºŒçº§åŸŸå
+			subDumain
+				options:
+				-o output, --output=OUTPUT    Output file name. default is{target}.txt
+				python subDumainsBrute.py dadigua.win -o oputpu.txt
+				ä¼˜ç‚¹:åœ¨çˆ†ç ´åŸŸåæ—¶,è‡ªåŠ¨è¿”å›å“åº”IPåœ°å€(ç”šè‡³å¯èƒ½ä¼šè¿”å›ä¸ƒå†…ç½‘IP)mod.baidu.com  10.94.69.36
+				layer:
+				DNSå®šå‘æ£€æµ‹
+				**æ³¨æ„:åœ¨å¾—åˆ°äºŒçº§åŸŸåä¹‹å,è¦å¯¹äºŒçº§åŸŸåè¿›è¡Œç›®å½•çˆ¬è¡Œ,ç›®å½•çˆ†ç ´æ“ä½œ
+	7.æŸ¥è¯¢ç›®æ ‡æ—ç«™ä¿¡æ¯
+		åˆ©ç”¨Bing.com è¯­æ³•ä¸º:  http://cn.bing.com/search?q=ip:43.225.57.1
+			æ¯”å¦‚:ç›®æ ‡ç½‘ç«™ä¸º:www.eiserverywhere.com
+			1.ping www.eiseverywhere.com
+		ç«™é•¿ä¹‹å®¶:http://s.tool.chinaz.com/same
+		www.114best.com/ip/
+	8.æŸ¥è¯¢ç›®æ ‡æœåŠ¡å™¨çš„å¼€å‘ç«¯å£æƒ…å†µ
+	nmap: æœ€ç®€å•,æœ€ç²—æš´çš„æ–¹å¼å°±æ˜¯: nmap xxx.xxx.xxx.xxx (ä¸åŠ ä»»ä½•å‚æ•°çš„æƒ…å†µä¸‹,å³é»˜è®¤æ‰«æé«˜å±1000ç«¯å£)
+		-p æŒ‡å®šç«¯å£æ‰«æ:  nmap xxx.xxx.xxx.xxx -p3306,6689,80-90,8080-8090,7001
+		-p æ‰«ææ‰€æœ‰ç«¯å£:  nmap xxx.xxx.xxx.xxx -p-  (-p-  ä¹Ÿå¯ä»¥æ›¿æ¢æˆ-p- 65535ï¼‰
+		-sS åŠå¼€æ‰«æï¼ˆå³SYNæ‰«æï¼Œæ•ˆç‡é«˜ï¼Œé€Ÿåº¦å¿«ï¼‰ï¼šnmap -sS -p xxx.xxx.xxx.xxx
+		-v æŸ¥çœ‹æ‰«æè¯¦æƒ…ï¼ˆä¸€èˆ¬ç›´æ¥ä½¿ç”¨ -vvï¼‰
+
+		åæœŸä¼šç€é‡è®²è§£nmapçš„å…¶ä»–å‚æ•°åŠæ‰€æœ‰scriptçš„ä½¿ç”¨ 
+	9.æŸ¥è¯¢Cæ®µç½‘ç«™ä¿¡æ¯(å»ºè®®æ”¾åœ¨æ‰€æœ‰æµç¨‹äººæœ€å)
+		æŸ¥è¯¢Cæ®µç½‘ç«™çš„æ–¹æ³•å°±æ˜¯ç±»ä¼¼æŸ¥è¯¢æ—ç«™ä¿¡æ¯ http://cn.bing.com/search?q=ip:43.225.57.1
+		æ¯”å¦‚ç›®æ ‡IPä¸ºï¼š43.225.57.112ï¼Œæˆ‘ä»¬åªè¦æ‰¹é‡æŸ¥è¯¢43.225.57.1-43.225.57.225
+		æ¨èå·¥å…·ï¼šK8_SideNote
+	    è¡¥å……googleè¯­æ³•å°æŠ€å·§ï¼šsiteï¼š43.225.57.*
 
