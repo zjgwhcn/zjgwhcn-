@@ -1,0 +1,76 @@
+工具准备：
+    一：信息收集
+    	1.对网站进行简单的识别
+	    浏览器插件：firefox下的firebug，chrome下的检查
+  	2.对网站进行爬虫
+	    WebRobot、AWVS、burpsuite的spider模块、百度谷歌URL获取
+	3.对网站目录进行爆破扫描
+	    御剑全家福，dirbrute，dirsearch，Pker，wwwscan等等
+	    目的：对网站结构深入了解
+	4.对目标服务器进行端口扫描
+	    nmap(最好用,但是比较慢),御剑2014（大批量目标）
+	5.查询目标网站的WEB程序
+	    御剑WEB指纹识别系统,椰树
+	    http://whatweb.yidianhan.com
+	    http://cms.im-fox.com
+	    http://whatweb.bugscaner.com/look
+	    whatweb
+	 6.查询目标网站的二级域名,旁注及C段
+	    子域名:layer,subDomainsBrute,altdns,Sublist3r
+	    旁站:K8_SideNote(旁站查询不推荐使用工具:http://cn.bing.com/serch?q=ip:47.88.29.2) 国内的有爱站,站长
+	    
+	    C段:原理同旁站
+
+    二：漏洞发现
+        1.工具扫描
+	    AWVS,netsparker ，burpsuite ，appscan，
+	2.手动发现
+	    sql利用工具
+	        sql（不建议使用免python环境版本），啊D，明小子，safe3，havij，pangolin，WebCruiser（在salserver数据库时我会优先使用）
+	    抓包工具
+	        burpsuite，fiddler，WSExplorer，wireshark
+	    专项漏洞利用工具
+	        IIS漏洞利用工具（iis短文件名，iis put，）
+		dedecms漏洞利用工具（）
+		struts2漏洞利用工具
+		XSS漏洞利用工具---CAL9000
+	
+	
+     三:权限提升:
+        webshell
+            各版本的webshell（asp，aspx，jsp，php，py，cgi。。。。）
+	    https://github.comn/search?utf8=%E2%(C%93&q=webshell
+
+	提权工具
+	    windows
+	        03（
+		win7
+		08
+		日志清除工具
+		     web日志清除（iis，apache，nginx）
+		     系统日志清除（远程登陆日志
+		密码获取工具
+		    gethash，getpass，mimikatz，Pwdup7，wce，powershell一键获取脚本
+		 后门工具
+		     shift后门，lpk劫持工具，3389修改版
+		 第三方提权工具
+		     serv-u  f-admin，teamviewer等等
+		 linux
+		     反连脚本（bash，python，perl，ruby等等）
+
+      四:后门维持
+          win:远程(灰鸽子,大白鲨) shift  lpk
+	  lin:远程,root双密码后门	
+      五:(内网渗透)
+	  各类端口代理脚本（tunnel）
+	  嗅探工具
+	  各类端口密码爆破工具
+	  socks5代理
+      六：搭建环境
+	    xampp，appserv phpstudy
+	    ftp，iis
+      七：辅助类相关工具
+      八：帮助文档
+	    SQL技术手册，HTML手册，各类中间帮助文档
+
+最后推荐工具  everything
